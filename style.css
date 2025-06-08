@@ -308,12 +308,8 @@ h1{
 
 /* CONTACT FORM */
 .contact-form-container{
-    /* max-width: 400px;
-    margin: 0 auto; */
+    
     background-color: #fbeee0;
-    /* padding:24px;
-    border-radius:12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left:140px;
@@ -537,7 +533,6 @@ body.dark-mode div {
 } 
  
 
-/* CSS MEDIA QUERIES */
 /* LARGE SCREENS */
 @media(min-width:1200px){
     .carousel-section{
@@ -550,41 +545,6 @@ body.dark-mode div {
     }
 }
 
-/* MEDIUM SCREENS AND TABLETS 
-
-@media(max-width:1199px){
-    .hero,
-    .about,
-    .toggle-container,
-    .faq-section,
-    .contact-form-container{
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-
-
-    .team-section,
-    .testimonial-section{
-
-        margin-left:60px;
-        margin-right: 60px;
-
-        }
-
-    .brand-bar{
-
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-    .carousel-image{
-        max-width: 350px;
-        height: 220px;}
-    
-
-
-}
-     */
     
 
 /* SMALL TABLETS */
