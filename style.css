@@ -629,7 +629,73 @@ body.dark-mode div {
         gap:15px;
     }
 
-    /*chatbot*/
+ 
+}
+/* VERY SMALL SCREENS */
+@media(max-width:499px){
+    .hero,
+    .about,
+    .toggle-container,
+    .faq-section,
+    .contact-form-container,
+    .caurousel-section,
+    .chat-container,
+    .team-section,
+    .testimonial-section{
+        margin-left:10px;
+        margin-right: 10px;
+        padding:15px 20px;
+        border-radius: 20px;
+    }
+    .brand-bar{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding:10px 15px;
+        border-radius: 20px;
+
+    }
+
+    .carousel-item{
+        flex:0 0 250px;
+        padding:12px;
+        min-height:200px;
+    }
+    .carousel-container{
+        gap:15px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .brand-track{
+        gap:20px;
+
+    }
+    .brand-tag{
+        padding:8px 15px;
+        font-size: 14px;
+    }
+    input,textarea{
+        max-width: 100%;
+        padding: 10px;
+    }
+    #ctabutton{
+        width:110px;
+        padding: 8px 16px;
+    }
+    .profile-img{
+        width:100px;
+        height: 100px;
+    }
+
+    .site-footer,
+    #visit-count{
+        width:95%;
+        padding:8px 15px;
+        font-size: 14px;
+    }
+    
+}
+   /*chatbot*/
     .chat-container {
         max-width: 800px;
         margin: 0 auto;
@@ -783,69 +849,3 @@ body.dark-mode div {
 
 
     }
-}
-
-/* VERY SMALL SCREENS */
-@media(max-width:499px){
-    .hero,
-    .about,
-    .toggle-container,
-    .faq-section,
-    .contact-form-container,
-    .caurousel-section,
-    .chat-container,
-    .team-section,
-    .testimonial-section{
-        margin-left:10px;
-        margin-right: 10px;
-        padding:15px 20px;
-        border-radius: 20px;
-    }
-    .brand-bar{
-        margin-left: 10px;
-        margin-right: 10px;
-        padding:10px 15px;
-        border-radius: 20px;
-
-    }
-
-    .carousel-item{
-        flex:0 0 250px;
-        padding:12px;
-        min-height:200px;
-    }
-    .carousel-container{
-        gap:15px;
-    }
-    h1{
-        font-size: 1.5rem;
-    }
-    .brand-track{
-        gap:20px;
-
-    }
-    .brand-tag{
-        padding:8px 15px;
-        font-size: 14px;
-    }
-    input,textarea{
-        max-width: 100%;
-        padding: 10px;
-    }
-    #ctabutton{
-        width:110px;
-        padding: 8px 16px;
-    }
-    .profile-img{
-        width:100px;
-        height: 100px;
-    }
-
-    .site-footer,
-    #visit-count{
-        width:95%;
-        padding:8px 15px;
-        font-size: 14px;
-    }
-    
-}
