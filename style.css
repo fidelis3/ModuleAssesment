@@ -108,7 +108,12 @@ h1{
     box-shadow:0 4px 10px rgb(0,0,0,0.1);
     min-height: 250px;
     font-family: 'Inria Serif';
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+
+
 .carousel-item h2{
     color: #d1876d;
     margin-bottom: 10px;
