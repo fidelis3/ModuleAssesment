@@ -117,9 +117,9 @@ h1{
     margin-bottom: 10px;
 }
 .carousel-image{
-    width:100px;
-    max-width:300px;
-    height:200px;
+    width:100%;
+    max-width:280px;
+    height:180px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -303,7 +303,7 @@ h1{
     transform: scale(1.05);
 }
 
-/* CHATBOT */
+
 
 
 /* CONTACT FORM */
@@ -543,9 +543,14 @@ body.dark-mode div {
     .carousel-section{
         max-width: 1000px;
     }
+    .carousel-image{
+
+        max-width:320px;
+        height: 200px;
+    }
 }
 
-/* MEDIUM SCREENS AND TABLETS */
+/* MEDIUM SCREENS AND TABLETS 
 
 @media(max-width:1199px){
     .hero,
@@ -574,11 +579,13 @@ body.dark-mode div {
     }
     .carousel-image{
         max-width: 350px;
-        height: 220px;
-    }
+        height: 220px;}
+    
 
 
 }
+     */
+    
 
 /* SMALL TABLETS */
 @media(max-width: 991px){
@@ -592,8 +599,8 @@ body.dark-mode div {
 
     }
      .carousel-image{
-        max-width:200px;
-        height:160px;
+        max-width:280px;
+        height:180px;
     }
    
 }
@@ -628,8 +635,8 @@ body.dark-mode div {
     }
 
     .carousel-image {
-        width: 150px;
-        height: 75px;
+        width: 200px;
+        height: 120px;
         object-fit: cover;
         border-radius: 4px;
         margin-bottom: 15px;
@@ -682,6 +689,10 @@ body.dark-mode div {
         flex:0 0 250px;
         padding:12px;
         min-height:200px;
+    }
+    .carousel-image{
+        width:160px;
+        height:100px;
     }
     .carousel-container{
         gap:15px;
