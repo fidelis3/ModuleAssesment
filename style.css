@@ -722,17 +722,7 @@ body.dark-mode div {
         display: inline-block;
     }
 
-    /*.sample-questions {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 10px;
-        position: relative;
-        top: 0;
-    }*/
-
+  
     .sample-questions button:hover {
         background: #b57c57;
     }
