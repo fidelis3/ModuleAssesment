@@ -722,7 +722,7 @@ body.dark-mode div {
         display: inline-block;
     }
 
-    .sample-questions {
+    /*.sample-questions {
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -731,7 +731,7 @@ body.dark-mode div {
         margin-top: 10px;
         position: relative;
         top: 0;
-    }
+    }*/
 
     .sample-questions button:hover {
         background: #b57c57;
@@ -807,8 +807,9 @@ body.dark-mode div {
         padding: 20px;
         border: 1px solid #d1876d;
         border-radius: 20px;
-        font-size: 14px;
-        min-height:20px;
+        font-size: 16px;
+        min-height:45px;
+        height: 50px;
     }
 
     .input-area button {
