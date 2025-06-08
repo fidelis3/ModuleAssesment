@@ -561,7 +561,12 @@ body.dark-mode div {
 
         margin-left: 80px;
         margin-right: 80px;
-        }
+    }
+    .carousel-image{
+        max-width: 350px;
+        height: 220px;
+    }
+
 
 }
 
@@ -576,6 +581,11 @@ body.dark-mode div {
         gap:20px;
 
     }
+     .carousel-image{
+        max-width:200px;
+        height:160px;
+    }
+   
 }
 
 /* MOBILE DEVICES */
@@ -852,3 +862,5 @@ body.dark-mode div {
 
 
     }
+
+    
