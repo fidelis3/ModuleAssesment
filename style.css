@@ -324,8 +324,7 @@ h1{
     display: flex;
     justify-content: center;
     
-    /* margin-left: 140px;
-    margin-right: 140px; */
+    
 
 }
 .contact-form-container h3{
@@ -805,10 +804,11 @@ body.dark-mode div {
 
     #user-input {
         flex: 1;
-        padding: 10px;
+        padding: 20px;
         border: 1px solid #d1876d;
         border-radius: 20px;
         font-size: 14px;
+        min-height:20px;
     }
 
     .input-area button {
