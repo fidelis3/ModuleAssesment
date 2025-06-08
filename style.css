@@ -804,19 +804,23 @@ body.dark-mode div {
 
     #user-input {
         flex: 1;
-        padding: 15px 520px ;
+        padding: 20px ;
         border: 1px solid #d1876d;
-        border-radius: 425px;
-        font-size: 16px;
-        min-height:50px;
-        box-sizing: border-box;
+        border-radius: 15px;
+        font-size: 18px;
+        height:80px;
+        color:#000000;
+        background-color: #fff;
+    }
+    .input-area::placeholder{
+        color:#883939;
     }
 
     .input-area button {
-        padding: 15px 25px;
+        padding: 20px 30px;
         background: #d1876d;
         border: none;
-        border-radius: 20px;
+        border-radius: 15px;
         color: #000000;
         cursor: pointer;
         transition: all 0.3s ease;
