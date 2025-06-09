@@ -14,7 +14,7 @@
     <a href="#" id="ctabutton">Get Started</a>
     </div>
 
-    <div class="about">
+    <div class="about"></div>
         <img src="logo.jpg" alt="Crown and Courage Logo" class="logo" align="center">
         <h1 align="center">Who Are We?</h1>
         <br>
@@ -224,19 +224,7 @@
                 displayMessage('Sorry, I encountered an error. Please try again.', 'bot-message');
             }
         }
-        // Load personalized context from file
-        async function loadContext() {
-            try {
-                const response = await fetch('startup_context.txt');
-                if (!response.ok) throw new Error('Failed to load context');
-                const context = await response.text();
-                return context;
-            } catch (error) {
-                console.error('Error loading context:', error);
-                return `Our startup "Beauty Beyond Cancer" was founded by Fidelis Ntoiti with the mission to restore confidence in cancer patients and survivors. We provide affordable wigs, kids' caps, and confidence kits to help people feel like themselves again during and after treatment.
-                 Our services are inclusive of all genders and ages, and we aim to expand our reach globally while maintaining our commitment to quality and affordability.`;
-            }
-        }
+      
 
         // Initialize context when page loads
         window.addEventListener('load', async () => {
