@@ -786,7 +786,6 @@ body.dark-mode div {
         gap: 15px;
         margin-top: 20px;
         padding: 15px;
-        width: 100%;
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
@@ -799,6 +798,7 @@ body.dark-mode div {
         border-radius: 15px;
         font-size: 18px;
         height:80px;
+        width:300px;
         color:#000000;
         background-color: #fff;
     }
