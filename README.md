@@ -8,7 +8,7 @@ A heartfelt web-based platform to restore confidence, dignity, and hope to cance
 
 # Live Preview
 
-> *You can run the HTML file directly in your browser.*
+https://fidelis3.github.io/ModuleAssesment/
 
 
 
